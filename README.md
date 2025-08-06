@@ -1,8 +1,8 @@
 # Interactive Quiz App
 
 An engaging, modern, and responsive quiz web application built with **Bootstrap 5**, **JavaScript**, and **Font Awesome** icons. The app features multiple subjects with interactive quizzes, instant feedback, progress tracking, and a final score summary.
-
 ---
+Deployed in Vercel 
 
 ## Features
 
