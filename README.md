@@ -25,3 +25,6 @@ An engaging, modern, and responsive quiz web application built with **Bootstrap 
    git clone https://github.com/yourusername/interactive-quiz-app.git
 
    ```
+### Open Folder
+
+Run index.html to initialize 
