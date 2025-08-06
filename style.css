@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(135deg, #3a6186, #89253e);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+  }
+  
+  #choices button {
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    padding: 1rem 1.25rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 3px 7px rgb(0 0 0 / 0.1);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  #choices button:hover:not(:disabled) {
+    transform: scale(1.03);
+    cursor: pointer;
+  }
+  
+  #choices button:disabled {
+    cursor: default;
+    opacity: 0.7;
+  }
+  
+  #choices button.correct {
+    background-color: #198754 !important;
+    color: white;
+    box-shadow: 0 0 10px #198754aa;
+  }
+  
+  #choices button.wrong {
+    background-color: #dc3545 !important;
+    color: white;
+    box-shadow: 0 0 10px #dc3545aa;
+  }
+  
+  #result {
+    font-weight: 600;
+    font-size: 1.3rem;
+    min-height: 2rem;
+    user-select: none;
+  }
+  
+  #score-container {
+    color: #444;
+  }
+  
+  #score {
+    font-size: 6rem;
+    color: #0d6efd;
+  }
+  
+  #final-message {
+    color: #0d6efd;
+  }
+  
+  .subject-btn {
+    min-width: 160px;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .subject-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  h1, h2, h3, h4 {
+    user-select: none;
+  }
+  
+  .progress-bar {
+    background-color: #0d6efd !important;
+  }
+  
